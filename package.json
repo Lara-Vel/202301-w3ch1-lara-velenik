@@ -1,0 +1,36 @@
+{
+  "name": "202301-w3ch1-lara-velenik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lara-Vel/202301-w3ch1-lara-velenik.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lara-Vel/202301-w3ch1-lara-velenik/issues"
+  },
+  "homepage": "https://github.com/Lara-Vel/202301-w3ch1-lara-velenik#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "husky": "^8.0.0",
+    "jest": "^29.4.1",
+    "typescript": "^4.9.4"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}
